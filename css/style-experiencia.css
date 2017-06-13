@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'comfortaa';
+}
+
+.marco h2 {
+  background-color: beige;
+}
+
+#experiencia {
+  background-color: gold;
+}
+/* aqui es donde le quitas esta caracteristica */
+#experiencia .bloque {
+	display: table;
+	width: 100%;
+}
+
+#experiencia .marco {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: aqua;
+  position: relative;
+}
+
+#experiencia .metros {
+  background-color: aquamarine;
+  width: 200px;
+  height: 934px;
+  background-image: url(../images/pic_work_small.jpeg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+  float: left;
+	margin-left: 5%;
+	margin-top: 90px;
+  z-index: 2;
+}
+
+#experiencia .timeline {
+  float: right;
+  background-color: lightcyan;
+  width: 634px;
+  height: 934px;
+  margin-top: 90px;
+  position: relative;
+  right: 10%;
+  z-index: 2;
+}
+
+#experiencia article>span {
+  width: 34px;
+  height: 34px;
+  display: block;
+  background-color: #63bc50;
+  border-radius: 34px;
+  text-align: center;
+  color: #ededed;
+  line-height: 35px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#experiencia article>p {
+  font-size: 17px;
+  line-height: 1;
+}
+
+#experiencia .line {
+  height: 2px;
+  border: none;
+  margin: 5px 0px 0px;
+  background-color: #63bc50;
+}
+
+#experiencia article .line span {
+  width: 18px;
+  height: 18px;
+  background-color: #63bc50;
+  border-radius: 18px;
+  display: block;
+}
+
+#experiencia article h3 {
+  font-size: 20px;
+  padding: 9px 0px 5px;
+  margin: 0px;
+  font-weight: 600;
+}
+
+#experiencia article h4 {
+  font-weight: 300;
+  color: #585858;
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#experiencia ul {
+  margin-top: 15px;
+  line-height: 1.4;
+  color: #454545;
+  margin: 0px;
+  padding: 0px;
+}
+
+#experiencia li {
+  list-style: none;
+}
+
+#experiencia article ul li::before {
+  content: ". ";
+  font-size: 17px;
+}
+
+#experiencia .bgpipe {
+  background-color: lightsalmon;
+  display: inline-block;
+  position: absolute;
+  left: 73%;
+  top: -10px;
+  z-index: 1;
+}
+
+.marco {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
